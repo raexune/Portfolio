@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+  padding: 5rem;
+}
+
+.logo {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  gap: 5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+nav p {
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+nav p span {
+  color: #00C9C7;
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+
+.social-icon {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.section-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10rem;
+}
+
+.section-hero h1 {
+  color: #fff;
+  font-size: 3.4rem;
+  margin-bottom: 3.4rem;
+}
+
+.section-hero p {
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.section-hero img {
+  width: 50%;
+}
+
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.underconstruction {
+  background-color: yellow;
+  color: black;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  .section-hero {
+    padding: 10rem 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

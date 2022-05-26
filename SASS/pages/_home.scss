@@ -1,0 +1,47 @@
+.section-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+}
+
+.section-hero h1 {
+    color: #fff;
+    font-size: 3.4rem;
+    margin-bottom: 3.4rem;
+}
+
+.section-hero p {
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.section-hero img {
+    width: 50%;
+}
+
+.image-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.underconstruction {
+    background-color: yellow;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+
+    .section-hero {
+        padding: 10rem 0;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
